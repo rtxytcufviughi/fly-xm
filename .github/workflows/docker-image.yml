@@ -17,3 +17,4 @@ jobs:
             bash ./flytoml.sh
             flyctl apps create $FLY_APP_NAME
             flyctl deploy --remote-only
+
